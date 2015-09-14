@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box sizing: inherit;
+}
+
+.logo {
+  flat: left;
+  width: 10%;
+}
+
+header {
+  background-color: #cbcbcb;
+  padding-top: 1em;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: 0.5em 0.25em;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+dl li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+}
+
+.intro{
+  text-align: center;
+}
+
+.seven {
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../images/helen.jpg") no-repeat;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-size: 100% 100%;
+}
+
+.atlantis {
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../images/atlantisz.jpg") no-repeat;
+  color: black;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+footer {
+background-color: #cbcbcb;
+text-align: center;
+text-decoration: none;
+list-style-type: none;
+margin-right: 66px;
+}
+
+.atlantis-content {
+  color: white;
+  text-shadow: 2px 2px black;
+}
