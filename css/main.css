@@ -40,8 +40,7 @@ header {
 }
 
 .nav a:hover {
-  background-color: #512100;
-  opacity: 0.75;
+  background-color: brown;
 }
 
 h1 {
@@ -113,10 +112,28 @@ width:100%
 
 .masthead {
   padding-top: 6em;
-  background-image: url("../images/logo.svg"), url("../images/beetle.svg"),;
+  background-image: url("../images/logo.svg");
+  background-size: 10% auto;
+  background-repeat: no-repeat;
   padding-top: 1.5em;
-  padding-bottom: 3.3em;
+  padding-bottom: 3em;
   display: block;
+  background-position: left 50px;
+}
+
+.but {
+  padding: 0.5em 0.75em;
+  background-color: #775339;
+  background-image: linear-gradient(to bottom, #775339, #775339);
+  color: #fff;
+  font-size: 0.75rem;
+  text-decoration: none;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: right 50px;
+  float: right;
+  top: 60px;
+  right: 15px;
 }
 
 .left {
