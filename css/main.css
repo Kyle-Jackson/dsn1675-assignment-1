@@ -24,7 +24,6 @@ header {
   padding: 0.75em;
   padding-bottom: 0.5em;
   background-color: #775339;
-  color: #fff;
   text-decoration: none;
   text-align: center;
   font-size: 1.2rem;
@@ -55,6 +54,7 @@ h2 {
 
 dl li {
   list-style-type: none;
+  padding-bottom: 2em;
 }
 
 img {
@@ -102,7 +102,8 @@ background-color: #cbcbcb;
 text-align: center;
 text-decoration: none;
 list-style-type: none;
-margin-right: 66px;
+padding-top: 2em
+width:100%
 }
 
 .atlantis-content {
@@ -112,11 +113,61 @@ margin-right: 66px;
 
 .masthead {
   padding-top: 6em;
-  background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/mini-waves.png");
-  background-size: 75px auto, 75px auto, 100px auto;
+  background-image: url("../images/logo.svg"), url("../images/beetle.svg"),;
   padding-top: 1.5em;
   padding-bottom: 3.3em;
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: right 25px, left 25px, left top;
   display: block;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  padding-right: 3%;
+}
+
+.center {
+  float: left;
+  width: 30%;
+  padding-right: 3%;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  padding-right: 3%;
+}
+
+.learn {
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+  background-color: #775339;
+  text-decoration: none;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  float: left;
+  width: 90%;
+  margin-bottom: 1em;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.tix {
+  padding: 0.5em 1.37em;
+  background-color: #775339;
+  color: white;
+  text-decoration: none;
+  bottom: 1em;
+  text-align: center;
+  float: left;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.cap {
+  text-align: center;
 }
