@@ -224,16 +224,21 @@ padding-bottom: o;
     top: 37px;
     right: 15px;
   }
+
+  h2 {
+    font-size: 1.2em;
+    padding-bottom: 0.25em;
+  }
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 37em) {
 
   .title {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 15%;
+    padding-left: 10%;
     font-size: 2em;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .nav {
@@ -245,7 +250,7 @@ padding-bottom: o;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: left top;
-    padding-top: 0.025em;
+    padding: 2em 0;
     color: white;
     text-shadow: 2px 2px #000;
     margin-bottom: 1em;
@@ -257,12 +262,13 @@ padding-bottom: o;
     color: black;
     padding-bottom: 0;
     display: block;
-    background-position: left 40px;
+    background-position: left 39px;
   }
 
   .but {
-    top: 5px;
+    top: 48px;
     right: 15px;  }
+
 }
 @media only screen and (min-width: 50em) {
 
