@@ -30,10 +30,13 @@ img {
 
 .masthead {
   padding-top: 36.5%;
-  padding-top: 36.5%;
   color: #000;
-  padding-top: 1em;
-  background-color:
+  background-image: url("../images/logo.svg");
+  background-size: 10% auto;
+  background-repeat: no-repeat;
+  padding-top: 1.5em;
+  display: block;
+  background-position: left 10px;
 }
 
 .logo {
@@ -103,6 +106,7 @@ h3 {
   float: left;
   width: 30%;
   padding-right: 3%;
+  margin-left: 3%;
 }
 
 .center {
@@ -187,9 +191,22 @@ line-height: 1em;
   background-size: 100% 100%;
   text-align: center;
   padding-bottom: 1.5em;
+  text-shadow: 1px 1px #fff;
 }
 
-@media only screen and (min-width: 31em) {
+ul {
+  padding: 0;
+}
+
+.foo {
+  margin: 0;
+}
+
+header {
+padding-bottom: o;
+}
+
+@media only screen and (min-width: 32em) {
 
   .nav {
     text-align: center;
@@ -200,15 +217,11 @@ line-height: 1em;
   }
 
   .seven {
-      padding-top: 0.025em;
       color: white;
       text-shadow: 2px 2px #000;
-      margin-top: 1em;
+      padding-top: 1em;
     }
-
 }
-
-
 
 @media only screen and (min-width: 40em) {
 
@@ -242,7 +255,8 @@ line-height: 1em;
     padding-top: 36.5%;
     background-color: #f4f4f4;
     color: black;
-    padding-top: 1em;
+    padding-bottom: 0;
+
   }
 }
 @media only screen and (min-width: 50em) {
