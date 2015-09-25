@@ -201,7 +201,7 @@ line-height: 1em;
   text-shadow: 1px 1px #fff;
 }
 
-ul {
+dl {
   padding: 0;
 }
 
@@ -356,6 +356,10 @@ padding-bottom: o;
     right: 15px;
   }
 
+  dl {
+    overflow: hidden;
+  }
+
   .left {
     float: left;
     width: 20%;
@@ -442,7 +446,12 @@ padding-bottom: o;
     margin-right: 0;
   }
 
-  ul {
+  dl {
+    padding: 0;
+    width: 70%;
+  }
+
+  dl {
     padding: 0;
     width: 70%;
   }
@@ -483,4 +492,43 @@ padding-bottom: o;
     margin-right: 0;
   }
 
+}
+
+@media print {
+
+  .nav {
+    display: none;
+  }
+
+  a {
+    display: none;
+  }
+
+
+  main a::after {
+    content: " (" attr(href) ")";
+    color: #999;
+  }
+
+  .seven {
+    background-image: none;
+  }
+
+  .but {
+    display: none;
+  }
+
+  .learn {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    clear: both;
+  }
 }
