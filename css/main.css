@@ -39,12 +39,6 @@ img {
   background-position: left 10px;
 }
 
-.logo {
-  width: 90px;
-  margin: 0 auto;
-  display: block;
-}
-
 .title {
   font-size: 1.5rem;
   text-align: center;
@@ -221,19 +215,25 @@ padding-bottom: o;
       text-shadow: 2px 2px #000;
       padding-top: 1em;
     }
+
+  .masthead {
+    background-position: left 35px;
+  }
+
+  .but {
+    top: 37px;
+    right: 15px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
 
-  .logo {
-    display: inline-block;
-    margin: 0 1em;
-    vertical-align: middle;
-  }
-
   .title {
     display: inline-block;
     vertical-align: middle;
+    padding-left: 15%;
+    font-size: 2em;
+    padding-bottom: 0;
   }
 
   .nav {
@@ -252,12 +252,17 @@ padding-bottom: o;
   }
 
   .masthead {
-    padding-top: 36.5%;
+    padding-top: 3.5%;
     background-color: #f4f4f4;
     color: black;
     padding-bottom: 0;
-
+    display: block;
+    background-position: left 40px;
   }
+
+  .but {
+    top: 5px;
+    right: 15px;  }
 }
 @media only screen and (min-width: 50em) {
 
@@ -269,11 +274,6 @@ padding-bottom: o;
   main {
     float: right;
     width: 70%;
-  }
-
-  .logo {
-    margin: 0 auto;
-    display: block;
   }
 
   .title {
